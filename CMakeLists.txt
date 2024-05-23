@@ -52,7 +52,7 @@ install(TARGETS simulator_node
         DESTINATION lib/${PROJECT_NAME})
 
 #install launch file
-install(DIRECTORY launch
+install(DIRECTORY launch mesh
   DESTINATION share/${PROJECT_NAME}
 )
 
