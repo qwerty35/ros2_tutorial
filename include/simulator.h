@@ -6,6 +6,9 @@
 #include "tf2_ros/transform_broadcaster.h"
 #include <turtlesim/msg/pose.hpp>
 #include <geometry_msgs/msg/twist.hpp>
+#include <Eigen/Dense>
+
+typedef Eigen::Vector3d Vector3d;
 
 class State {
 public:
